@@ -1,3 +1,4 @@
+import { relative, resolve } from 'node:path'
 import defu from 'defu'
 import serialize from 'serialize-javascript'
 import { addTemplate, defineNuxtModule, importModule, resolvePath, useLogger } from '@nuxt/kit'
@@ -68,6 +69,7 @@ export default defineNuxtModule<ModuleOptions>({
     })
 
     nuxt.hook('builder:watch', async (event, path) => {
+      path = relative(nuxt.options.srcDir, resolve(nuxt.options.srcDir, path))
       const pathPattern = new RegExp(`^(${routerFilePath}|${nuxt.options.srcDir}/views)/`)
       if (event !== 'change' && path.match(pathPattern)) {
         await nuxt.callHook('builder:generateApp')
