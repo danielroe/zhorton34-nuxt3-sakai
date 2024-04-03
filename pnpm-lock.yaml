@@ -9,7 +9,7 @@ specifiers:
   '@nuxt/test-utils': 3.12.0
   '@nuxtjs/eslint-config-typescript': latest
   '@pinia/nuxt': ^0.5.0
-  '@pinia/testing': ^0.0.14
+  '@pinia/testing': ^0.1.0
   '@testing-library/vue': latest
   '@types/node': ^18.7.18
   '@types/serialize-javascript': ^5.0.2
@@ -42,7 +42,7 @@ devDependencies:
   '@nuxt/test-utils': 3.12.0_sgfsysffdx2snxonap6imhnlja
   '@nuxtjs/eslint-config-typescript': 12.1.0_qmyr2z7zccr6ye2ghkyf22xr6m
   '@pinia/nuxt': 0.5.1_arz4dztosvwy2ghjrlh2wdhejm
-  '@pinia/testing': 0.0.14_pinia@2.0.22+vue@3.2.39
+  '@pinia/testing': 0.1.3_pinia@2.0.22+vue@3.2.39
   '@testing-library/vue': 8.0.3_3kiqpmk3xkgoxowr6hhpssvdyy
   '@types/node': 18.7.18
   '@types/serialize-javascript': 5.0.4
@@ -889,13 +889,13 @@ packages:
       - vue
     dev: true
 
-  /@pinia/testing/0.0.14_pinia@2.0.22+vue@3.2.39:
-    resolution: {integrity: sha512-ZmZwVNd/NnKYLIfjfuKl0zlJ3UdiXFpsHzSlL6wCeezSlyrqGMxsIQKv0J6fleu38gyCNTPBEipfxrt8V4+VIg==}
+  /@pinia/testing/0.1.3_pinia@2.0.22+vue@3.2.39:
+    resolution: {integrity: sha512-D2Ds2s69kKFaRf2KCcP1NhNZEg5+we59aRyQalwRm7ygWfLM25nDH66267U3hNvRUOTx8ofL24GzodZkOmB5xw==}
     peerDependencies:
-      pinia: '>=2.0.19'
+      pinia: '>=2.1.5'
     dependencies:
       pinia: 2.0.22_arz4dztosvwy2ghjrlh2wdhejm
-      vue-demi: 0.13.11_vue@3.2.39
+      vue-demi: 0.14.7_vue@3.2.39
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
@@ -1467,7 +1467,7 @@ packages:
       '@types/web-bluetooth': 0.0.15
       '@vueuse/metadata': 9.2.0
       '@vueuse/shared': 9.2.0_vue@3.2.39
-      vue-demi: 0.13.11_vue@3.2.39
+      vue-demi: 0.14.7_vue@3.2.39
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
@@ -1508,7 +1508,7 @@ packages:
   /@vueuse/shared/9.2.0_vue@3.2.39:
     resolution: {integrity: sha512-NnRp/noSWuXW0dKhZK5D0YLrDi0nmZ18UeEgwXQq7Ul5TTP93lcNnKjrHtd68j2xFB/l59yPGFlCryL692bnrA==}
     dependencies:
-      vue-demi: 0.13.11_vue@3.2.39
+      vue-demi: 0.14.7_vue@3.2.39
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
