@@ -19,7 +19,7 @@
     "@pinia/nuxt": "^0.5.0",
     "@pinia/testing": "^0.1.0",
     "@testing-library/vue": "latest",
-    "@types/node": "^18.7.18",
+    "@types/node": "^20.0.0",
     "@types/serialize-javascript": "^5.0.2",
     "@vue/compiler-sfc": "^3.2.39",
     "@vueuse/components": "^9.2.0",
