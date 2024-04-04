@@ -25,7 +25,7 @@ specifiers:
   pinia: ^2.0.22
   primeflex: 3.3.1
   primeicons: 6.0.1
-  primevue: 3.17.0
+  primevue: 3.51.0
   prismjs: 1.29.0
   sass: ^1.55.0
   sass-loader: 13.0.2
@@ -57,7 +57,7 @@ devDependencies:
   nuxt: 3.11.1_tbshtwv5y2h6p3tv3rvn4yhocm
   primeflex: 3.3.1
   primeicons: 6.0.1
-  primevue: 3.17.0_sdqc6lvpp5fksjjzbbnroqp2wi
+  primevue: 3.51.0_vue@3.2.39
   prismjs: 1.29.0
   sass: 1.55.0
   sass-loader: 13.0.2_sass@1.55.0+webpack@5.91.0
@@ -7771,13 +7771,11 @@ packages:
     resolution: {integrity: sha512-KDeO94CbWI4pKsPnYpA1FPjo79EsY9I+M8ywoPBSf9XMXoe/0crjbUK7jcQEDHuc0ZMRIZsxH3TYLv4TUtHmAA==}
     dev: true
 
-  /primevue/3.17.0_sdqc6lvpp5fksjjzbbnroqp2wi:
-    resolution: {integrity: sha512-z7ZCHk4kgkHJ29hg0izN1M8Xst2MOObimq62waE2TDE8ztH9mp2sAdGGsQu1shMa4/23dZ+fcN4t+KpYNICRyQ==}
+  /primevue/3.51.0_vue@3.2.39:
+    resolution: {integrity: sha512-BdMveidLSr0fNJ5+mxuke8mMCHyiXwvfDP4iwPr6R98rl3E0Wcm1u4/RKVrL7o0Iq606SXyhPQL3LGyAfXngcA==}
     peerDependencies:
-      primeicons: ^5.0.0
       vue: ^3.0.0
     dependencies:
-      primeicons: 6.0.1
       vue: 3.2.39
     dev: true
 
