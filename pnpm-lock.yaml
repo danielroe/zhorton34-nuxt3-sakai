@@ -23,7 +23,7 @@ specifiers:
   eslint-plugin-nuxt: ^4.0.0
   nuxt: 3.11.1
   pinia: ^2.0.22
-  primeflex: 3.2.1
+  primeflex: 3.3.1
   primeicons: 6.0.1
   primevue: 3.17.0
   prismjs: 1.29.0
@@ -55,7 +55,7 @@ devDependencies:
   eslint: 8.57.0
   eslint-plugin-nuxt: 4.0.0_eslint@8.57.0
   nuxt: 3.11.1_tbshtwv5y2h6p3tv3rvn4yhocm
-  primeflex: 3.2.1
+  primeflex: 3.3.1
   primeicons: 6.0.1
   primevue: 3.17.0_sdqc6lvpp5fksjjzbbnroqp2wi
   prismjs: 1.29.0
@@ -1443,6 +1443,7 @@ packages:
     dependencies:
       is-glob: 4.0.3
       micromatch: 4.0.5
+      napi-wasm: 1.1.0
     dev: true
     bundledDependencies:
       - napi-wasm
@@ -6603,6 +6604,10 @@ packages:
     hasBin: true
     dev: true
 
+  /napi-wasm/1.1.0:
+    resolution: {integrity: sha512-lHwIAJbmLSjF9VDRm9GoVOy9AGp3aIvkjv+Kvz9h16QR3uSVYH78PNQUnT2U4X53mhlnV2M7wrhibQ3GHicDmg==}
+    dev: true
+
   /natural-compare/1.4.0:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
     dev: true
@@ -7758,8 +7763,8 @@ packages:
       react-is: 17.0.2
     dev: true
 
-  /primeflex/3.2.1:
-    resolution: {integrity: sha512-sGDJ4mh2fG19xa1yc4IPGSQ8MUMyu5nU+tYnl27AFuFHhX8XwEA7fWCtWyBbclclVhXtre+Kf9WobWPnfxWAEQ==}
+  /primeflex/3.3.1:
+    resolution: {integrity: sha512-zaOq3YvcOYytbAmKv3zYc+0VNS9Wg5d37dfxZnveKBFPr7vEIwfV5ydrpiouTft8MVW6qNjfkaQphHSnvgQbpQ==}
     dev: true
 
   /primeicons/6.0.1:
