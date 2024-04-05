@@ -23,7 +23,7 @@
     "@types/serialize-javascript": "^5.0.2",
     "@vue/compiler-sfc": "^3.2.39",
     "@vueuse/components": "^9.2.0",
-    "@vueuse/nuxt": "^9.2.0",
+    "@vueuse/nuxt": "^10.0.0",
     "@whoj/utils": "^0.1.0",
     "chart.js": "3.9.1",
     "core-js": "^3.25.2",
