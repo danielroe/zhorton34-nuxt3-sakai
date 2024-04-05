@@ -17,7 +17,7 @@ specifiers:
   '@vueuse/components': ^9.2.0
   '@vueuse/nuxt': ^9.2.0
   '@whoj/utils': ^0.1.0
-  chart.js: 3.9.1
+  chart.js: 4.4.2
   core-js: ^3.25.2
   eslint: latest
   eslint-plugin-nuxt: ^4.0.0
@@ -50,7 +50,7 @@ devDependencies:
   '@vueuse/components': 9.2.0_vue@3.4.21
   '@vueuse/nuxt': 9.2.0_nuxt@3.11.2+vue@3.4.21
   '@whoj/utils': 0.1.0_vue@3.4.21
-  chart.js: 3.9.1
+  chart.js: 4.4.2
   core-js: 3.36.1
   eslint: 8.57.0
   eslint-plugin-nuxt: 4.0.0_eslint@8.57.0
@@ -788,6 +788,10 @@ packages:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.4.15
+    dev: true
+
+  /@kurkle/color/0.3.2:
+    resolution: {integrity: sha512-fuscdXJ9G1qb7W8VdHi+IwRqij3lBkosAm4ydQtEmbY58OzHXqQhvlxqEkoz0yssNVn38bcpRWgA9PP+OGoisw==}
     dev: true
 
   /@kwsites/file-exists/1.1.1:
@@ -3397,8 +3401,11 @@ packages:
     engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
     dev: true
 
-  /chart.js/3.9.1:
-    resolution: {integrity: sha512-Ro2JbLmvg83gXF5F4sniaQ+lTbSv18E+TIf2cOeiH1Iqd2PGFOtem+DUufMZsCJwFE7ywPOpfXFBwRTGq7dh6w==}
+  /chart.js/4.4.2:
+    resolution: {integrity: sha512-6GD7iKwFpP5kbSD4MeRRRlTnQvxfQREy36uEtm1hzHzcOqwWx0YEHuspuoNlslu+nciLIB7fjjsHkUv/FzFcOg==}
+    engines: {pnpm: '>=8'}
+    dependencies:
+      '@kurkle/color': 0.3.2
     dev: true
 
   /check-error/1.0.3:
