@@ -16,7 +16,7 @@ specifiers:
   '@vue/compiler-sfc': ^3.2.39
   '@vueuse/components': ^9.2.0
   '@vueuse/nuxt': ^9.2.0
-  '@whoj/utils': ^0.1.0
+  '@whoj/utils': ^1.0.0
   chart.js: 3.9.1
   core-js: ^3.25.2
   eslint: latest
@@ -49,7 +49,7 @@ devDependencies:
   '@vue/compiler-sfc': 3.4.21
   '@vueuse/components': 9.2.0_vue@3.4.21
   '@vueuse/nuxt': 9.2.0_nuxt@3.11.2+vue@3.4.21
-  '@whoj/utils': 0.1.0_vue@3.4.21
+  '@whoj/utils': 1.8.0_vue@3.4.21
   chart.js: 3.9.1
   core-js: 3.36.1
   eslint: 8.57.0
@@ -2799,36 +2799,37 @@ packages:
       '@xtuc/long': 4.2.2
     dev: true
 
-  /@whoj/utils-core/0.1.0:
-    resolution: {integrity: sha512-sZGQP1SbiJ9QhAeT6KXi55l0CLIgGDBFkNAGKZXeK95MukR1orDGn2Aok568gYtUrAN0QcuSvlR/KbMQB0x2AQ==}
+  /@whoj/utils-core/1.8.0:
+    resolution: {integrity: sha512-5yCfRZGhBi/3Qz4DifY8fA1zcSK0GR8bTo2ylKqXCHY7jHCN/F9kszyiRnSVtFzDKbRiI1egcstkQ2F2XyW/Yw==}
     dependencies:
-      '@whoj/utils-types': 0.1.0
+      '@whoj/utils-types': 1.8.0
     dev: true
 
-  /@whoj/utils-types/0.1.0:
-    resolution: {integrity: sha512-5YqWBBqvPXI46nzPMLnoNEQ7r1Qwdc6RdZF7rNjXu1ke3afUuLI384DZzKIc4MKGJIn78MbqxMdlRnmIOJ16dg==}
+  /@whoj/utils-types/1.8.0:
+    resolution: {integrity: sha512-O1kQgbDN2vgW8YZHKugoKI5GNR4WeTe3047gOD4/XN1XC1DvP4VhMpM9TlTfb1uHilAHj24PWevYzH6Rfhjiyg==}
     dev: true
 
-  /@whoj/utils-vue/0.1.0_vue@3.4.21:
-    resolution: {integrity: sha512-NOEyYn6tQc2JjQlQ678RCQ7RpG8wNpCcTmu/9huhtv7xpuJZK+72F0VQ8xKa4VFtL3H/JM5s1lB5NxYmUhmFHQ==}
+  /@whoj/utils-vue/1.8.0_vue@3.4.21:
+    resolution: {integrity: sha512-DF2vGOJ7r00xdVDCRi0vRQNFhNT+cs/aWRmq/bwe7DiGVPF3Bx64eigDgZ2fhVNANqjtXF1cxgUNGbHBHdxSpQ==}
     peerDependencies:
       vue: ^2.6 || >=3.2
     dependencies:
-      '@whoj/utils-core': 0.1.0
-      '@whoj/utils-types': 0.1.0
-      fuse.js: 7.0.0
+      '@whoj/utils-core': 1.8.0
+      '@whoj/utils-types': 1.8.0
+      fuse.js: 6.6.2
+      resumablejs: 1.1.0
       vue: 3.4.21_typescript@4.9.5
       vue-demi: 0.14.7_vue@3.4.21
     transitivePeerDependencies:
       - '@vue/composition-api'
     dev: true
 
-  /@whoj/utils/0.1.0_vue@3.4.21:
-    resolution: {integrity: sha512-Hy8rIJroRD9emiS4sJayMoewNJ7a2esDgBqZ1GPAsMDvroNTbDzUB1Z3C/69WEzHyurk/zBkB8CY1mrcS/urDQ==}
+  /@whoj/utils/1.8.0_vue@3.4.21:
+    resolution: {integrity: sha512-rCwmvCAQ+xbMyfbXwMXdEZxABz1dl3CGrNo0UcnOUOWkqUO91hBS7Pfe2t/wvIQKLVqVmbhCM/m8sTFKqq9C3g==}
     dependencies:
-      '@whoj/utils-core': 0.1.0
-      '@whoj/utils-types': 0.1.0
-      '@whoj/utils-vue': 0.1.0_vue@3.4.21
+      '@whoj/utils-core': 1.8.0
+      '@whoj/utils-types': 1.8.0
+      '@whoj/utils-vue': 1.8.0_vue@3.4.21
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
@@ -5164,8 +5165,8 @@ packages:
     resolution: {integrity: sha512-xckBUXyTIqT97tq2x2AMb+g163b5JFysYk0x4qxNFwbfQkmNZoiRHb6sPzI9/QV33WeuvVYBUIiD4NzNIyqaRQ==}
     dev: true
 
-  /fuse.js/7.0.0:
-    resolution: {integrity: sha512-14F4hBIxqKvD4Zz/XjDc3y94mNZN6pRv3U13Udo0lNLCWRBUsrMv2xwcF/y/Z5sV6+FQW+/ow68cHpm4sunt8Q==}
+  /fuse.js/6.6.2:
+    resolution: {integrity: sha512-cJaJkxCCxC8qIIcPBF9yGxY0W/tVZS3uEISDxhYIdtk8OL93pe+6Zj7LjCqVV4dzbqcriOZ+kQ/NE4RXZHsIGA==}
     engines: {node: '>=10'}
     dev: true
 
@@ -8037,6 +8038,10 @@ packages:
       is-core-module: 2.13.1
       path-parse: 1.0.7
       supports-preserve-symlinks-flag: 1.0.0
+    dev: true
+
+  /resumablejs/1.1.0:
+    resolution: {integrity: sha512-gUTWTtJ2aheRb5svHDGHMtQsBkGxTILpZApT11ODoxEe5D75GhYL7Nc/WYgCcJXY+5RVmm2BEsp2qriCkKWRRg==}
     dev: true
 
   /retry/0.12.0:
